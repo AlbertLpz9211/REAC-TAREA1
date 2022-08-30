@@ -1,0 +1,58 @@
+* {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+.card {
+  align-items: center;
+  padding: 30px;
+  box-shadow: 2px 2px 8px rgba(150, 192, 34, 0.2);
+  border-radius: 10px;
+  background-color: #ffffff;
+	width: 700px;
+	padding: 1.5em;
+	box-shadow: 5px 25px 30px rgb(82, 81, 81);
+}
+
+
+.quote{
+  display: flex;
+	align-items: center;
+	column-gap: 1em;
+  font-size: 20px;
+}
+
+.quote i {
+  font-size: 50px;
+}
+
+.btn-container{
+  display: flex;
+	justify-content: flex-end;
+	padding-top: 1em;
+	margin-right: 10px;
+}
+
+.button-card{
+  border: transparent;
+	border-radius: 50%;
+	font-size: 2rem;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	box-shadow: 3px 3px 5px rgb(82, 81, 81);
+}
+
+.author{
+  text-align: right;
+	margin-right: 10px;
+  font-size: 1.8rem;
+}
